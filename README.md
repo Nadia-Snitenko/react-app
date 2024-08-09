@@ -1,22 +1,19 @@
-## Прогнозы транспорта
+### Transport forecasts
 
-Сделать веб-версию "Прибывалки" или сайта https://tosamara.ru/spravka/ostanovki/9/
+The web version of the "Arrival" or the site https://tosamara.ru/spravka/ostanovki/9/
 
-Какие нужны возможности:
-- находить желаемую остановку поиском по названию или по карте
-- отображать прогнозы прибытия для отдельной остановки
-- отображать прогнозы для транспорта на маршруте для линейки последующих остановок
-- динамическая подгрузка справочников остановок, маршрутов и прогнозов через https://tosamara.ru/api/ 
-- для поисковых методов допустимо использование своего API и справочников на сервере
-- хорошая работа в условиях экрана смартфона
-- функция "любимых остановок"
+# Opportunities:
+- find the desired stop by searching by name or by map
+- Display arrival forecasts for an individual stop
+- display forecasts for transport on the route for a line of subsequent stops
+- dynamic loading of stop directories, routes and forecasts via https://tosamara.ru/api/ 
+- for search methods, it is acceptable to use your API and directories on the server
+- good performance in smartphone screen conditions
+- the "favorite stops" function
 <details>
-<summary><mark><font color=darkred>учетка</font></mark></summary><p>clientId=test secret_key=just_f0r_tests</p>
+<summary><mark><font color=darkred>account</font></mark></summary><p>ClientID=test secret_key=just_f0r_tests</p>
 </details>
 
-### ДОКУМЕНТАЦИЯ
-
-## Стили
-- App.css - используются в App
-- index.css - используются в main
-- style.css - пока бесполезны
+# - npm start
+Runs the app in the development mode.
+Open http://127.0.0.1:5173/ to view it in your browser.
