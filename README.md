@@ -1,8 +1,8 @@
-### Transport forecasts
+# Transport forecasts
 
 The web version of the "Arrival" or the site https://tosamara.ru/spravka/ostanovki/9/
 
-# Opportunities:
+## Opportunities:
 - find the desired stop by searching by name or by map
 - Display arrival forecasts for an individual stop
 - display forecasts for transport on the route for a line of subsequent stops
@@ -14,6 +14,6 @@ The web version of the "Arrival" or the site https://tosamara.ru/spravka/ostanov
 <summary><mark><font color=darkred>account</font></mark></summary><p>ClientID=test secret_key=just_f0r_tests</p>
 </details>
 
-# - npm start
+## npm start
 Runs the app in the development mode.
 Open http://127.0.0.1:5173/ to view it in your browser.
